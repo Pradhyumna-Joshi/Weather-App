@@ -1,7 +1,7 @@
 public with sharing class WeatherController {
     
-    private static String BASE_URL = 'http://api.openweathermap.org/data/2.5/weather';
-    private static String API_KEY = '1c047b73c1aa0e741643891f76c34d99';
+    private static String BASE_URL = '';
+    private static String API_KEY = '';
     
    
     @AuraEnabled(cacheable=true)
